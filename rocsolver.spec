@@ -2,7 +2,7 @@
 
 Name:		rocsolver
 Version:	7.14.0
-Release:	1
+Release:	2
 Summary:	ROCm dense linear algebra solvers (LAPACK on HIP)
 License:	BSD-2-Clause
 Group:		System/Libraries
@@ -26,7 +26,6 @@ BuildRequires:	lib64fmt-devel
 BuildRequires:	rocsparse-devel
 BuildRequires:	python3
 
-ExclusiveArch:	%{x86_64} %{aarch64}
 
 %description
 rocSOLVER provides LAPACK-like dense linear algebra solvers for HIP,
