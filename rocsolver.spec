@@ -1,13 +1,13 @@
-# rocSOLVER dense linear algebra (TheRock 10.0)
+# rocSOLVER dense linear algebra (TheRock 10.1)
 
 Name:		rocsolver
-Version:	10.0.0
+Version:	10.1.0
 Release:	1
 Summary:	ROCm dense linear algebra solvers (LAPACK on HIP)
 License:	BSD-2-Clause
 Group:		System/Libraries
 URL:		https://github.com/ROCm/rocm-libraries
-Source0:	https://github.com/ROCm/rocm-libraries/releases/download/therock-10.0/rocsolver.tar.gz#/rocsolver-%{version}.tar.gz
+Source0:	https://github.com/ROCm/rocm-libraries/releases/download/therock-10.1/rocsolver.tar.gz#/rocsolver-%{version}.tar.gz
 
 BuildRequires:	rocm-rpm-macros
 BuildRequires:	cmake
